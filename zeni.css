@@ -1,0 +1,113 @@
+
+.sidebar{
+    font-family: 'Courier New', Courier, monospace;
+    inline-size:500px;
+    font-size: 20px;
+    margin-top:-40px;
+}
+
+#icony{
+  width:100px;
+  height: 64px;
+}
+.icon{
+ width:32px;
+ height:32px;
+ margin-left:3500%;
+ border-color: black;
+ 
+ 
+}
+.linkclass{color:rgb(255, 255, 255);
+  text-decoration: none;
+}
+h1{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size:95px;
+padding-left:70px;
+color: white;
+width:560px;
+height:400pxpx ;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    background-image:url(hh2.png);
+    background-size: 500px 1100px;
+   background-repeat:no-repeat;
+   background-position:650px 100px;
+   color:white;
+}
+h2{
+font-size:55px;
+font-family: Arial, Helvetica, sans-serif;
+}
+#pb{
+  font-size:30px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.shrtlbio{
+  font-size:20px ;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+  color: orangered;
+  font-size: 30px;
+  height:10px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#note{
+  font-size:20px;
+  color: white;
+}
+#linkden{
+  width:300px;
+  height:300px;
+  float:left;
+}
+#linktalk{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+}
+fieldset{
+  width:145px;
+  border-radius:15px;
+  margin-top: -20px;
+  margin-right:10px;
+  color:rgb(255, 255, 255);
+} 
+#monday{
+  font-size:30px;
+  color: orangered;
+  font-family:cursive;
+}
+.footer{
+  width: 40px;
+  height: 32px;
+}
+button{
+  color:blue;
+  border-radius: 7px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#linktalk{
+  font-size: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: transparent;
+  animation: effect 2s linear infinite;
+  
+}
+
+@keyframes effect {
+  0% {
+      background: linear-gradient(
+              #006eff, #008cff);
+      -webkit-background-clip: text;
+      
+  }
+
+  100% {
+      background: linear-gradient(
+              orangered, orange);
+      -webkit-background-clip: text;
+  }
+}
